@@ -1,0 +1,179 @@
+
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff; /* Fundo da página em branco */
+}
+
+header {
+    background-color: #c284ad; /* Cabeçalho em rosa pastel claro */
+    padding: 20px;
+    text-align: center; /* Centraliza o texto */
+}
+
+header h1 {
+    margin-bottom: 10px;
+    color: #ffffff; /* Texto principal em branco */
+    font-size: 2em; /* Destaca o título */
+}
+
+.main-nav {
+    margin-top: 10px;
+    text-align: center; /* Centraliza as opções de navegação */
+}
+
+.main-nav a {
+    text-decoration:none; /* Remove o sublinhado */
+    color: #ffffff; /* Cor rosa pastel médio */
+    font-weight: bold;
+    padding: 10px 20px; /* Adiciona espaço ao redor do texto */
+    display: inline-block; /* Exibe como bloco inline */
+    border-radius: 5px; /* Arredonda os cantos */
+    background-color: #c284ad; /* Cor de fundo em rosa pastel claro */
+    margin: 5px; /* Espaço entre os links */
+    transition: background-color 0.3s, color 0.3s; /* Suaviza a transição de cor */
+}
+
+
+.main-nav a:hover {
+    background-color: #e495d0; /* Muda a cor de fundo no hover */
+    color: #ffffff; /* Muda a cor do texto no hover */
+}
+
+.intro {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #f589b1; /* Texto em rosa intenso */
+}
+
+.search-box {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.search-box input[type="text"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border: 1px solid #f3d6f1; /* Borda em rosa pastel suave */
+    border-radius: 4px;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #d493cc; /* Botão em rosa pastel suave */
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #cf8aba; /* Hover em rosa pastel médio */
+}
+
+.results {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #ffeaf8; /* Borda em rosa pastel claro */
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: #fcf1fb; /* Fundo branco para contraste */
+}
+
+.card h3 {
+    margin: 0 0 10px;
+    color: #000000; /* Texto principal em rosa intenso */
+}
+
+.card p {
+    margin: 0 0 10px;
+    color: #424142; /* Texto em rosa intenso */
+}
+
+.card a {
+    color:#cf8aba; /* Link em rosa pastel médio */
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #f763a8;
+}
+h2 {
+    color: #f763a8;
+}
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+p {
+    line-height: 1.6;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav li {
+    margin: 0 10px;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:#c284ad; /* Cor rosa claro */
+    padding: 20px;
+    text-align: center;
+}
+
